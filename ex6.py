@@ -9,7 +9,7 @@ print(x)
 print(y)
 
 print(f"I said: {x}")
-print(f"I said: '{y}")
+print(f"I also said: '{y}")
 
 hilarious = False
 joke_evaluation = "Isn't that joke so funny?! {}"
