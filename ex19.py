@@ -1,8 +1,10 @@
 def cheese_and_crackers(cheese_count, boxes_of_crackers):
+    print(f">>>>\ncheese_count = {cheese_count}, boxes_of_crackers = {boxes_of_crackers}\n")
     print(f"You have {cheese_count} cheeses!")
     print(f"You have {boxes_of_crackers} boxes of crackers!")
     print("Man that's enough for a party!")
     print("Get a blanket.\n")
+    print("<<<<< exit")
     
     
 print("We can just give the function numbers directly:")

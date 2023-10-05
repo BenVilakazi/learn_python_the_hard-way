@@ -1,5 +1,7 @@
 def add(a, b):
+    print(">>>")
     print(f"ADDING {a} + {b}")
+    print("<<< exit")
     return a + b
 
 def sub(a, b):
@@ -19,6 +21,7 @@ print("Let's do some math with just functions!")
 
 age = add(30, 5)
 height = sub(78, 4)
+print(">>> height=", height)
 weight = mul(90, 2)
 iq = div(100, 2)
 
