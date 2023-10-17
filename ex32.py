@@ -24,6 +24,7 @@ elem = []
 # then use the range function to do 0 to 5 counts
 
 for i in range(0,6):
+    print(elem)
     print(f"Adding {i} to the list.")
     # append is a function that lists understand
     elem.append(i)
@@ -31,3 +32,4 @@ for i in range(0,6):
 #now we can print them out too
 for i in elem:
     print(f"element was: {i}")
+    print(elem)

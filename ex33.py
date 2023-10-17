@@ -2,6 +2,7 @@ i = 0
 num = []
 
 while i < 6:
+    print(num)
     print(f"At the top i is {i}")
     num.append(i)
     
